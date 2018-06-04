@@ -49,21 +49,25 @@ property_blueprints:
   name: wso2apim.mysql.hostname
   optional: false
   type: string
+  reference: wso2apim.mysql.hostname
 - configurable: true
   label: Database Name
   name: wso2apim.mysql.product_db
   optional: false
   type: string
+  reference: wso2apim.mysql.product_db
 - configurable: true
   label: Username
   name: wso2apim.mysql.username
   optional: false
   type: string
+  reference: wso2apim.mysql.username
 - configurable: true
   label: Password
   name: wso2apim.mysql.password
   optional: false
   type: secret
+  reference: wso2apim.mysql.password
 
 forms:
 - name: Database connection information
