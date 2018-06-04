@@ -43,6 +43,28 @@ packages:
     max_in_flight: 1
     properties: {}
 
+property_blueprints:
+- configurable: true
+  label: Hostname
+  name: wso2apim.mysql.hostname
+  optional: false
+  type: string
+- configurable: true
+  label: Database Name
+  name: wso2apim.mysql.product_db
+  optional: false
+  type: string
+- configurable: true
+  label: Username
+  name: wso2apim.mysql.username
+  optional: false
+  type: string
+- configurable: true
+  label: Password
+  name: wso2apim.mysql.password
+  optional: false
+  type: secret
+
 forms:
 - name: Database connection information
   label: Database connection information
